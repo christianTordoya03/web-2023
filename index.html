@@ -30,7 +30,7 @@
     <!-- Header Start -->
     <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-3 bg-secondary d-none d-lg-block">
+            <div class="col-lg-3 d-none d-lg-block">
                 <a href="index.html" class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
                     <h1 class="m-0 display-4 text-primary text-uppercase"><img class="logo" src="img/1-removebg-preview.png" alt="logo"></h1>
                 </a>
@@ -71,7 +71,6 @@
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav mr-auto py-0">
                             <a href="index.html" class="nav-item nav-link active">Consultoría</a>
-                            <a href="about.html" class="nav-item nav-link">Nosotros</a>
                             <a href="service.html" class="nav-item nav-link">Servicios</a>
                             <a href="contact.html" class="nav-item nav-link">Contáctanos</a>
                         </div>
@@ -136,7 +135,7 @@
                     <h6 class="text-uppercase">Conoce Más Sobre Nosotros</h6>
                     <h1 class="mb-4">Brindamos Servicios Legales Confiables y Efectivos</h1>
                     <p>Asesoría y defensa legal en negociaciones de deudas ante entidades bancarias y entidades públicas.<br>Evitamos remates judiciales recuperación de carrera morosa, solución a problemas contractuales y otros.</p>
-                    <a href="about.html" class="btn btn-primary mt-2">Leer más...</a>
+                    <a href="service.html" class="btn btn-primary mt-2">Leer más...</a>
                 </div>
             </div>
         </div>
@@ -208,8 +207,8 @@
                                 <h5 class="text-secondary m-0">01</h5>
                             </div>
                             <div class="ml-4">
-                                <h5>Best Law Practices</h5>
-                                <p class="m-0">Ipsum duo tempor elitr rebum stet magna amet kasd. Ipsum magna ipsum ipsum stet ipsum</p>
+                                <h5>Mejores Prácticas Legales</h5>
+                                <p class="m-0">En nuestra empresa, nos comprometemos a seguir las mejores prácticas legales para garantizar el cumplimiento de las leyes y regulaciones aplicables. Valoramos la transparencia, la ética y el respeto a los derechos de nuestros clientes y socios comerciales.</p>
                             </div>
                         </div>
                         <div class="d-flex mb-4">
@@ -217,8 +216,8 @@
                                 <h5 class="text-secondary m-0">02</h5>
                             </div>
                             <div class="ml-4">
-                                <h5>Efficiency & Trust</h5>
-                                <p class="m-0">Ipsum duo tempor elitr rebum stet magna amet kasd. Ipsum magna ipsum ipsum stet ipsum</p>
+                                <h5>Eficiencia y Confianza</h5>
+                                <p class="m-0">Nos destacamos por nuestra eficiencia y la confianza que generamos en nuestros clientes. Nos enorgullece ofrecer servicios y soluciones de calidad que cumplen con los más altos estándares en términos de eficiencia operativa y la construcción de relaciones sólidas basadas en la confianza mutua.</p>
                             </div>
                         </div>
                         <div class="d-flex">
@@ -226,8 +225,8 @@
                                 <h5 class="text-secondary m-0">03</h5>
                             </div>
                             <div class="ml-4">
-                                <h5>Results You Deserve</h5>
-                                <p class="m-0">Ipsum duo tempor elitr rebum stet magna amet kasd. Ipsum magna ipsum ipsum stet ipsum</p>
+                                <h5>Resultados que mereces</h5>
+                                <p class="m-0"> Creemos que nuestros clientes merecen los mejores resultados posibles. Nos apasiona entregar soluciones y servicios que superen las expectativas y generen un impacto significativo.</p>
                             </div>
                         </div>
                     </div>
@@ -244,8 +243,8 @@
             <div class="bg-action rounded" style="height: 500px;">
                 <div class="row h-100 align-items-center justify-content-center">
                     <div class="col-lg-7 text-center">
-                        <h1 class="text-white mb-4">Let's get started. Call us now for a Free Consultation</h1>
-                        <a class="btn btn-primary py-3 px-5 mt-2" href="#">Call Us Now</a>
+                        <h1 class="text-white mb-4">Póngase en contacto con nosotros</h1>
+                        <a href="https://wa.me/51943450491" target="_blank" class="btn btn-primary py-3 px-5 mt-2">Escribenos al WhatsApp</i></a>
                     </div>
                 </div>
             </div>
@@ -260,16 +259,19 @@
                 <div class="row h-100 align-items-center justify-content-center">
                     <div class="col-lg-6 py-5">
                         <div id="form" class="rounded p-5 my-5" style="background: rgba(55, 55, 63, .7);">
-                            <h1 class="text-center text-white mb-4">Obtenga una cita</h1>
-                            <form method="POST" action="https://formsubmit.co/ceo@consultoriatordoya.com">
+                            <h1 class="text-center text-white mb-4">Obtenga una cita con el 50% de descuento por consulta</h1>
+                            <form  method="POST" action="https://formsubmit.co/josetordoyacapital@gmail.com">
                                 <div class="form-group">
-                                    <input type="text" class="form-control border-0 p-4" placeholder="Inserta tu nombre" required="required" />
+                                    <input type="text" name="nombre" class="form-control border-0 p-4" placeholder="Ingresa tu nombre completo" required="required" data-validation-required-message="Ingrese su nombre" />
                                 </div>
                                 <div class="form-group">
-                                    <input type="email" class="form-control border-0 p-4" placeholder="correo@gmail.com" required="required" />
+                                    <input type="number" name="numero" class="form-control border-0 p-4" placeholder="celular" required="required" data-validation-required-message="Ingrese su número celular"  />
                                 </div>
                                 <div class="form-group">
-                                    <textarea class="form-control p-4" rows="6" id="message" placeholder="Mensaje" required="required" data-validation-required-message="Please enter your message"></textarea>
+                                    <input type="email" name="correo" class="form-control border-0 p-4" placeholder="correo@gmail.com" required="required" data-validation-required-message="Ingrese su correo"  />
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control p-4" name="mensaje" rows="6" id="message" placeholder="Mensaje" required="required" data-validation-required-message="Ingrese su mensaje"></textarea>
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div>
@@ -291,8 +293,8 @@
                 <div class="d-flex justify-content-lg-center p-4" style="background: rgba(256, 256, 256, .05);">
                     <i class="fa fa-2x fa-map-marker-alt text-primary"></i>
                     <div class="ml-3">
-                        <h5 class="text-white">Our Office</h5>
-                        <p class="m-0">Location, City, Country</p>
+                        <h5 class="text-white">Nuestra oficina</h5>
+                        <p class="m-0">PSJE. LA ESTRELLA MZ.F LT.16, 2DO PISO, 1ra DE PRO</p>
                     </div>
                 </div>
             </div>
@@ -300,8 +302,8 @@
                 <div class="d-flex justify-content-lg-center p-4" style="background: rgba(256, 256, 256, .05);">
                     <i class="fa fa-2x fa-envelope-open text-primary"></i>
                     <div class="ml-3">
-                        <h5 class="text-white">Email Us</h5>
-                        <p class="m-0">info@example.com</p>
+                        <h5 class="text-white">Correo</h5>
+                        <p class="m-0">ceo@consultoriatordoya.com</p>
                     </div>
                 </div>
             </div>
@@ -309,18 +311,14 @@
                 <div class="d-flex justify-content-lg-center p-4" style="background: rgba(256, 256, 256, .05);">
                     <i class="fa fa-2x fa-phone-alt text-primary"></i>
                     <div class="ml-3">
-                        <h5 class="text-white">Call Us</h5>
-                        <p class="m-0">+012 345 6789</p>
+                        <h5 class="text-white">Llámanos</h5>
+                        <p class="m-0">+51 943-450-491 /(01)489-3011</p>
                     </div>
                 </div>
             </div>
         </div>
         <div class="row pt-5">
             <div class="col-lg-3 col-md-6 mb-5">
-                <a href="index.html" class="navbar-brand">
-                    <h1 class="m-0 mt-n2 display-4 text-primary text-uppercase"><img class="logo" src="img/1-removebg-preview.png" alt="logo"></h1>
-                </a>
-                <p>Volup amet magna clita tempor. Tempor sea eos vero ipsum. Lorem lorem sit sed elitr sed kasd et</p>
                 <div class="d-flex justify-content-start mt-4">
                     <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
                     <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
@@ -328,37 +326,12 @@
                     <a class="btn btn-lg btn-outline-light btn-lg-square" href="#"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
+            <a href="index.html" class="navbar-brand">
+                <h1 class="m-0 mt-n2 display-4 text-primary text-uppercase"><img class="logo" src="img/1-removebg-preview.png" alt="logo"></h1>
+            </a>
             <div class="col-lg-3 col-md-6 mb-5">
-                <h4 class="font-weight-semi-bold text-primary mb-4">Popular Links</h4>
-                <div class="d-flex flex-column justify-content-start">
-                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Home</a>
-                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>About</a>
-                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Services</a>
-                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Attorney</a>
-                    <a class="text-white" href="#"><i class="fa fa-angle-right mr-2"></i>Contact</a>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-5">
-                <h4 class="font-weight-semi-bold text-primary mb-4">Quick Links</h4>
-                <div class="d-flex flex-column justify-content-start">
-                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>FAQs</a>
-                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Help</a>
-                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Terms</a>
-                    <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Privacy</a>
-                    <a class="text-white" href="#"><i class="fa fa-angle-right mr-2"></i>Site Map</a>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-5">
-                <h4 class="font-weight-semi-bold text-primary mb-4">Newsletter</h4>
-                <p>Rebum labore lorem dolores kasd est, et ipsum amet et at kasd, ipsum sea tempor magna tempor. Accu kasd sed ea duo ipsum.</p>
-                <div class="w-100">
-                    <div class="input-group">
-                        <input type="text" class="form-control border-0" style="padding: 25px;" placeholder="Your Email">
-                        <div class="input-group-append">
-                            <button class="btn btn-primary px-4">Sign Up</button>
-                        </div>
-                    </div>
-                </div>
+                <h4 class="font-weight-semi-bold text-primary mb-4">"Tu guía legal hacia el éxito"</h4>
+                <p>Obtén el asesoramiento legal experto que necesitas para proteger tus intereses y alcanzar tus objetivos con confianza y tranquilidad.</p>
             </div>
         </div>
     </div>
